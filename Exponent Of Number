@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    printf("Exponent of a number\n");
+    printf("*********************\n");
+
+
+    int base,power,result;
+    printf("Enter the base : ");
+    scanf("%d",&base);
+    printf("Enter the power: ");
+    scanf("%d",&power);
+
+    result  = pow(base,power);
+    printf("The result is %d ",result);
+
+
+
+
+
+
+
+
+
+
+    return 0;
+}
