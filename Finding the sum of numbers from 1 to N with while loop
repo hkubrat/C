@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    printf("Finding the sum of numbers from 1 to N\n");
+    printf("*****************************************\n");
+
+    int n,i=1,sum=0;
+    printf("Please enter the N: ");
+    scanf("%d",&n);
+
+    while(i<n){
+       sum = sum + i;
+       i++;
+
+    }
+    printf("Tne number of sum = %d ",sum);
